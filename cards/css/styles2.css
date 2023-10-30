@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: black;
+    font-size: 16px;
+    font-family: Satoshi;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.observation {
+    color: rgb(86, 86, 86);
+    font-size: 12px;
+    font-family: Satoshi;
+    font-weight: 300;
+    line-height: 19.20px;
+    word-wrap: break-word;
+    padding: 10px 10px;
+}
+
+.container {
+    width: 400px;
+    height: 375px;
+    padding: 30px 20px !important;
+    background: white;
+    box-shadow: 0px 5px 10px rgba(44, 49, 49, 0.25);
+    border-radius: 5px;
+    border: 2px #CACACA solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    margin-left: 0 !important;
+}
+
+.item .label-text {
+    padding: 10px;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+
+.frame-steps,
+.observation,
+.button-container {
+    padding-left: 0; 
+}
+
+.sub-item-content {
+    width: 200px;
+    padding: 4px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px #E9E9E9 solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.sub-item-input:focus {
+    outline: 0px solid #888;
+}

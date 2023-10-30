@@ -1,0 +1,138 @@
+.container {
+    width: 390px;
+    height: 375px;
+    padding: 24px 16px;
+    background: white;
+    box-shadow: 0px 5px 10px rgba(44, 49, 49, 0.25);
+    border-radius: 5px;
+    border: 2px #CACACA solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    max-width: 375px;
+}
+
+.title {
+    text-align: justify;
+    color: black;
+    font-size: 16px;
+    /* font-family: Satoshi; */
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.icon {
+    width: 32px;
+    height: 17.78px;
+    position: relative;
+}
+
+.icon-inner {
+    width: 32px;
+    height: 17.78px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #E9E9E9;
+    border-radius: 8px;
+}
+
+.icon-center {
+    width: 14.22px;
+    height: 14.22px;
+    left: 1.78px;
+    top: 1.78px;
+    position: absolute;
+    background: white;
+    border-radius: 9999px;
+}
+
+.label {
+    color: #2C3131;
+    font-size: 12px;
+    font-family: Satoshi;
+    font-weight: 500;
+    line-height: 19.20px;
+    word-wrap: break-word;
+}
+
+.sub-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.sub-item-title {
+    color: #2C3131;
+    font-size: 14px;
+    font-family: Satoshi;
+    font-weight: 700;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+.sub-item-content {
+    width: 200px;
+    padding: 4px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px #E9E9E9 solid;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.sub-item-text {
+    color: #A9A9A9;
+    font-size: 12px;
+    font-family: Satoshi;
+    font-weight: 500;
+    line-height: 19.20px;
+    word-wrap: break-word;
+}
+
+.button-container {
+    border-radius: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+}
+
+.button {
+    padding: 8px 24px;
+    background: #FFB62D;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #2C3131;
+    font-size: 14px;
+    font-family: Satoshi;
+    font-weight: 500;
+    line-height: 21px;
+    word-wrap: break-word;
+}
+
+.sub-item-content:last-child {
+    margin-bottom: 16px; 
+}
+
+.sub-item-input:focus {
+    outline: 0px solid #888; 
+}

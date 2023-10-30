@@ -1,0 +1,100 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+
+.label-container {
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+    display: flex;
+    cursor: pointer; 
+}
+
+.circle-inactive {
+    width: 32px;
+    height: 17.78px;
+    position: relative;
+
+}
+
+.circle-inactive > div:first-child {
+    width: 32px;
+    height: 17.78px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #E9E9E9;
+    border-radius: 8px;
+}
+
+.circle-inactive > div:last-child {
+    width: 14.22px;
+    height: 14.22px;
+    left: 1.78px;
+    top: 1.78px;
+    position: absolute;
+    background: white;  
+    border-radius: 9999px;
+}
+
+.circle-active {
+   width: 32px;
+   height: 17.78px;
+   position: relative;
+
+}
+
+.circle-active > div:first-child {
+   width: 32px;
+   height: 17.78px;
+   left: 0px;
+   top: 0px;
+   position: absolute;
+   background: #12CE5A;  
+   border-radius: 8px;
+
+}
+
+.circle-active > div:last-child {
+   width: 14.22px;
+   height: 14.22px; 
+   left: 16px; 
+   top: 1.78px; 
+   position:absolute; 
+   background:white;  
+   border-radius :9999px; 
+}
+
+.label-text {
+    color : #2C3131; 
+    font-size :16px; 
+    font-family : Satoshi, sans-serif; 
+    font-weight :500; 
+    line-height :24px; 
+     word-wrap : break-word; 
+}
+
+/* animaçao */ 
+.circle-inactive > div:last-child,
+.circle-active > div:last-child {
+    transition: left 0.2s ease-in-out;
+}
+.circle-inactive > div:first-child,
+.circle-active > div:first-child {
+    transition: background-color 0.2s ease-in-out;
+}
+
+

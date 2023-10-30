@@ -1,0 +1,13 @@
+.sub-item-input {
+    height: 20px; 
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.item {
+    margin: 10px;
+}

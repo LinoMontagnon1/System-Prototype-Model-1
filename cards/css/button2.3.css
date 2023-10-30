@@ -1,0 +1,51 @@
+.rotation-speed {
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+
+.speed-option {
+    flex: 1 1 0;
+    height: 23px; 
+    padding-left: 30px; 
+    padding-right: 29px; 
+    padding-top: 4px;
+    padding-bottom: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    font-family: Satoshi;
+    font-weight: 500;
+    line-height: 21px;
+    word-wrap: break-word;
+    cursor: pointer;
+    user-select: none;
+}
+
+.speed-option {
+    background: #E9E9E9;
+    color: #CACACA;
+}
+
+.speed-option:first-child {
+    border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+}
+
+.speed-option:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+
+.speed-option {
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+
+
+

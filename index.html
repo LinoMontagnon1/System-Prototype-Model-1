@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBTI</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            background-color: #e6e6e6;
+            overflow-x: hidden;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-areas:
+                "card1 card2 card3"
+                "card4 card6 card6"
+                "card5 card6 card6";
+            grid-row-gap: 10px;
+            grid-column-gap: 1px;
+            margin-left: 277px;
+            margin-top: -5px;
+        }
+        .card-frame {
+            border: none;
+        }
+        .card-frame.card1 {
+            width: 430px; 
+            height: 420px; 
+            grid-area: card1; 
+        }
+        .card-frame.card2 {
+            width: 450px; 
+            height: 450px; 
+            margin-top: 7px;
+            margin-left: 0px;
+            grid-area: card2;
+        }
+        .card-frame.card3 {
+            width: 450px; 
+            height: 450px; 
+            margin-top: 7px;
+            margin-left: -133px;
+            grid-area: card3;
+        }
+        .card-frame.card4 {
+            width: 430px; 
+            height: 340px;
+            margin-top: -55px; 
+            grid-area: card4;
+        }
+        .card-frame.card5 {
+            width: 430px;
+            height: 220px;
+            margin-left: 8px;
+            margin-top: -60px; 
+            grid-area: card5;
+        }
+        .card-frame.card6 {
+            width: 1200px;
+            height: 470px; 
+            margin-top: -8px;
+            margin-left: -8px;
+            grid-area: card6;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <iframe src="../cards/html/index1.html" class="card-frame card1"></iframe>
+        <iframe src="../cards/html/index2.html" class="card-frame card2"></iframe>
+        <iframe src="../cards/html/index3.html" class="card-frame card3"></iframe>
+        <iframe src="../cards/html/index4.html" class="card-frame card4"></iframe>
+        <iframe src="../cards/html/index5.html" class="card-frame card5"></iframe>
+        <iframe src="../cards/html/index6.html" class="card-frame card6"></iframe>
+    </div>
+</body>
+</html>

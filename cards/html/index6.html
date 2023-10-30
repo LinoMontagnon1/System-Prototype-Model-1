@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles6.css"> 
+    <link rel="stylesheet" href="../css/text6.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="heading" style="margin-left: 1px;" >Parâmetros ativos:</div>
+        <div class="section">
+            <div class="subsection subsection-1">
+                <div class="sub-heading" style="margin-left: -3px;">Parâmetros do sensor e tubo</div>
+                <div class="status inactive">
+                    <div class="status-label-1">Inativo</div>
+                </div>
+                <div class="param">
+                    <div class="param-label">Delay para ligar o sensor:</div>
+                    <div class="param-value-1-1">---</div>
+                </div>
+                <div class="param">
+                    <div class="param-label">Delay para ligar o sensor e relé:</div>
+                    <div class="param-value-1-2">---</div>
+                </div>
+                <div class="param">
+                    <div class="param-label">Tempo para resfriar:</div>
+                    <div class="param-value-1-3">---</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="subsection subsection-2">
+                <div class="sub-heading" style="margin-left: -35px;">Configuração da mesa</div>
+                <div class="status inactive">
+                    <div class="status-label-2">Inativo</div>
+                </div>
+                <div class="param param-large">
+                    <div class="param-label">Número de passos entre frames “nF” da mesa:</div>
+                    <div id="mesa-value" class="param-value-2">---</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="subsection subsection-3">
+                <div class="sub-heading" style="margin-left: -30px;">Configuração do Eixo Z</div>
+                <div class="status inactive">
+                    <div class="status-label-3">Inativo</div>
+                </div>
+                <div class="param param-large">
+                    <div class="param-label">Número de passos entre frames “nF” da mesa:</div>
+                    <div id="delay-value" class="param-value-3">---</div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="subsection subsection-4">
+                <div class="sub-heading" style="margin-left: -53px;">Parâmetros do loop</div>
+                <div class="status inactive">
+                    <div class="status-label-4">Inativo</div>
+                </div>
+                <div class="param param-large">
+                    <div class="param-label">Quantidade de execuções do loop:</div>
+                    <div id="loop-value" class="param-value-4">---</div>
+            </div>
+        </div>
+    </div>
+
+    <script src='../js/parametersloop.js'></script>
+    <script src='../js/parametersz.js'></script>
+    <script src='../js/parametersmesa.js'></script>
+    <script src='../js/parameterstubo.js'></script>
+    
+</body>
+</html>    

@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.execute-buttons {
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+.execute-button {
+    flex: 1 1 0;
+    height: 23px; 
+    padding-left: 44px; 
+    padding-right: 44px; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    font-family: Satoshi;
+    font-weight: 500;
+    line-height: 21px;
+    word-wrap: break-word;
+    cursor: pointer;
+    user-select: none;
+    background-color: #E9E9E9; 
+    color: #CACACA; 
+}
+
+
+
+.enable {
+    background: #E9E9E9;
+    color: #CACACA;
+    border-top-right-radius: 0px; 
+    border-bottom-right-radius: 0px; 
+}
+
+
+.disable {
+    background: #E9E9E9;
+    color: #CACACA;
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 0px; 
+}
+
+.execute-button {
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+.execute-option {
+    margin-bottom: 10px;
+}

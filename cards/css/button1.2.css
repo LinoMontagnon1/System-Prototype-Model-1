@@ -1,0 +1,10 @@
+.button {
+    cursor: pointer;
+    user-select: none;
+    background-color: #FFB62D; /* cor inicial */
+    transition: background-color 0.5s; 
+}
+
+.button.animate {
+    background-color: #12CE5A; /* cor final */
+}

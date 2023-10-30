@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles1.css">
+    <link rel="stylesheet" href="../css/button1.1.css">
+    <link rel="stylesheet" href="../css/button1.2.css">
+    <link rel="stylesheet" href="../css/input1.css">
+    <link rel="stylesheet" href="../css/text1.css">
+    <title>Card 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">Parâmetros de aquisição para o sensor e o tubo:</div>
+        </div>
+        <div class="content">
+            <div class="item" style="margin-bottom: 20px;">
+                <div class="label-container" onclick="toggleElement1('button1')" data-id="button1">
+                    <div class="circle circle-inactive">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="label-text">Habilitar Relé-Tubo</div>
+                </div>        
+            </div>
+            <div class="item">
+                <div class="sub-item">
+                    <div class="sub-item-title">Delay (em “ms”) para ligar o sensor.</div>
+                    <div class="sub-item-content">
+                        <input id="delay-input" class="sub-item-input" type="number" placeholder="Digite algo...">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="sub-item">
+                    <div class="sub-item-title">Tempo (em “ms”) para desligar o sensor e relé-tubo.</div>
+                    <div class="sub-item-content">
+                        <input id="off-time-input" class="sub-item-input" type="number" placeholder="Digite algo...">
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="sub-item">
+                    <div class="sub-item-title">Tempo (em “ms”) para resfriar.</div>
+                    <div class="sub-item-content">
+                        <input id="cooling-time-input" class="sub-item-input" type="number" placeholder="Digite algo...">
+                    </div>
+                </div>
+            </div>
+            <div class="button-container">
+                <div class="button" id="button1" onclick='saveParameters1()'>
+                <strong>Enviar parâmetros
+                </strong>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src='../js/button1.1.js'></script> 
+    <script src='../js/parameters1.js'></script> 
+    <script src='../js/button1.2.js'></script>
+
+</body>
+</html>
